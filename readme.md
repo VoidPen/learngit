@@ -15,4 +15,12 @@
 
 1. git log - 查看日志
 
-1. 
+1. git reset - 回退、重置命令
+
+    git reset --hard HEAD^ : 表示回退到上一次提交。
+    git reset --hard \<commit id>: 回退到特定提交ID状态。
+
+1. git reflog -- 查看命令记录
+
+
+
