@@ -10,4 +10,7 @@
 1. git commit - 提交文件到仓库
 
 1. git status - 查看git当前状态
- 
+
+1. git diff - 查看改变
+
+1. 
