@@ -55,7 +55,6 @@ $ git add <file>
 
 ##### 提交修改到仓库
 ```
-$ git commit -m "message"
 # 修改上次提交
 $ git commit --amend
 ```
@@ -73,13 +72,14 @@ $ git log --pretty=oneline
 $ git reset --hard HEAD
 # 将HEAD重置到上一次提交的版本(HEAD^^: 上上次)
 $ git reset --hard HEAD^
+$ git reset --hard HEAD~n
 $ git reset --hard <commit_hash>
 # 将HEAD重置到指定的引用的版本(n由git reflog确定)
 $ git reset --hard HEAD@{n}
-$ git reset --hard HEAD~n
 ```
 
 ##### 管理reflog
 ```
+# 默认显示历史引用记录
 $ git reflog
 ```
