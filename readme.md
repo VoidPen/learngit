@@ -85,13 +85,18 @@ $ git reflog
 ```
 ##### 管理分支
 ```
-# 创建分支并切换分支
+# 创建分支并切换分支dev
 $ git checkout -b dev
 $ git branch dev
 $ git checkout dev
 # 查看当前分支
 $ git branch
-# 
+# 合并分支
+$ git merge dev
+# 删除分支
+$ git branch -b dev
+$ git branch --
+
 
 
 
