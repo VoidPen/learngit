@@ -83,3 +83,14 @@ $ git reset --hard HEAD@{n}
 # 默认显示历史引用记录
 $ git reflog
 ```
+##### 管理分支
+```
+# 创建分支并切换分支
+$ git checkout -b dev
+$ git branch dev
+$ git checkout dev
+# 查看当前分支
+$ git branch
+
+
+
